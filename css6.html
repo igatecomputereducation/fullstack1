@@ -4,19 +4,178 @@
  <head>
   <title> New Document </title>
   <style>
-	ul{
-		list-style-image:url('./images/java-logo.jpg');
+	body{
+		margin:0px;
+	}
+	#sec1{
+		padding:5px;
+	}
+	#sec1 img{
+		width:50px;
+		margin-left:50px;
+	}
+	#ph{
+		font:1.2em Arial;
+		float:right;
+		margin:20px 60px 0px 0px;
+	}
+
+	#sec2{
+		background-color:black;
+		padding:3px;
+	}
+	#sec2 ol{
+		list-style:none;
+		float:right;
+		margin-right:100px;
+	}
+	#sec2 ol li{
+		display:inline-block;
+		padding:10px;
+		margin:0px 5px 0px 5px;
+		background-color:black;
+	}
+	#sec2 ol li a{
+		color:white;
+		font:0.9em verdana;
+		text-decoration:none;
+	}
+	#sec3{
+		padding:15% 5%;
+	}
+	#sec3 h1{
+		text-align:center;
+		font:3.5em verdana;
+		font-weight:100;
+		margin-bottom:5px;
+	}
+	#sec3 p{
+		font:1em verdana;
+		padding:3% 10%;
+		text-align:center;
+		line-height:1.4;
+	}
+	#sec3 button{
+		padding:15px 50px;
+		border-radius:15px;
+		border:1px solid black;
+		font:1em Arial;
+		margin-top:20px;
+	}
+	#sec4{
+		padding:15% 5%;
+		background-color:black;
+		color:white;
+	}
+	#sec4 h1{
+		text-align:center;
+		font:3.5em verdana;
+		font-weight:100;
+		margin-bottom:5px;
+	}
+	#sec4 p{
+		font:1em verdana;
+		padding:3% 10%;
+		text-align:center;
+		line-height:1.4;
+	}
+	#sec4 button{
+		padding:15px 50px;
+		border-radius:15px;
+		border:1px solid black;
+		font:1em Arial;
+		margin-top:20px;
+	}
+	#sec5{
+		padding:10% 5% 5% 5%;
+	}
+	#sec5 h1{
+		text-align:center;
+		font:3.5em verdana;
+		font-weight:100;
+		margin-bottom:5px;
+	}
+	#sec5 p{
+		font:1.2em Arial;
+
+	}
+		
+	#sec6{
+		background-color:black;
+		color:white;
+		font:1em Arial;
+		text-align:center;
+		padding:3% 5%;
 	}
   </style>
  </head>
  <body>
-  <ul>
-	<li>HTML
-	<li>CSS
-	<li>JS
-	<li>JQuery
-	<li>Node.js
-	<li>Express.js
-  </ul>
+	<!-- beg of head -->
+	<div id="sec1">
+		<img src="./images/apple-icon.png">
+		<div id="ph">Ph:8688551978</div>
+		<div style="clear:right;"></div>
+	</div>
+	<!-- end of head -->
+
+	<!-- beg of menu -->
+	<div id="sec2">
+		<ol>
+			<li><a href="#sec1">Home</a></li>
+			<li><a href="#sec3">Services</a></li>
+			<li><a href="#sec4">About</a></li>
+			<li><a href="#sec5">Contact</a></li>
+		</ol>
+		<div style="clear:right;"></div>
+	</div>
+	<!-- end of menu -->
+
+	<!-- services section -->
+	<div id="sec3">	
+		<h1>Services</h1>
+		<hr color="black" size="2" width="10%">
+		<p>
+			Morbi suscipit justo ipsum, <br> eu interdum lectus pharetra gravida. Etiam eleifend euismod lacus et elementum. <br>Fusce quis ipsum id enim pulvinar luctus eu porttitor felis. Morbi suscipit justo ipsum, eu interdum lectus pharetra gravida.<br><br>
+			<button>Learn More</button>
+		</p>
+		
+	</div>
+	<!-- end of service section -->
+
+	<!-- beg of about section -->
+	<div id="sec4">	
+		<h1>About</h1>
+		<hr color="black" size="2" width="10%">
+		<p>
+			Morbi suscipit justo ipsum, <br> eu interdum lectus pharetra gravida. Etiam eleifend euismod lacus et elementum. <br>Fusce quis ipsum id enim pulvinar luctus eu porttitor felis. Morbi suscipit justo ipsum, eu interdum lectus pharetra gravida.<br><br>
+			<button>Learn More</button>
+		</p>
+		
+	</div>
+	<!-- end of about section -->
+
+	<!-- beg of contact section -->
+	<div id="sec5">	
+		<h1>Contact Us</h1>
+		<hr color="black" size="2" width="10%">
+		<br>
+		<p align="center">
+			Email:appleinc@gmail.com
+		</p>
+		<br><br>
+		<center>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3981316.193936529!2d72.98180068749997!3d12.971589499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sApple%20Inc.!5e0!3m2!1sen!2sin!4v1697173826195!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+		</center>
+	</div>
+
+	<!-- end of contact section-->
+
+	<!-- beg of footer section -->
+	<div id="sec6">
+		&copy; Copy rights reserved Apple Inc. 2023
+	</div>
+	<!-- end of footer section -->
+
+
  </body>
 </html>
