@@ -4,8 +4,12 @@
  <head>
   <title> New Document </title>
   <style>
+	html{
+		scroll-behavior: smooth;
+	}
 	body{
 		margin:0px;
+		
 	}
 	#sec1{
 		padding:5px;
@@ -19,10 +23,11 @@
 		float:right;
 		margin:20px 60px 0px 0px;
 	}
-
 	#sec2{
 		background-color:black;
 		padding:3px;
+		position: sticky;
+		top:0px;
 	}
 	#sec2 ol{
 		list-style:none;
@@ -107,9 +112,19 @@
 		text-align:center;
 		padding:3% 5%;
 	}
+	#timg{
+		position: fixed;
+		bottom: 10px;
+		right: 0px;
+		width: 50px;
+	}
   </style>
  </head>
  <body>
+	<a href="#sec1">
+		<img src="./images/arrow1.png" id="timg">
+	</a>
+
 	<!-- beg of head -->
 	<div id="sec1">
 		<img src="./images/apple-icon.png">

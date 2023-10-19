@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .box{
+            height: 200px;
+            margin: 10px;
+            border: 2px solid gray;
+            box-shadow: 5px 5px 5px 5px silver;
+            border-radius: 20px;
+            padding: 50px;
+       }
+       .ibox{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border: 1px solid black;
+            margin: 5px;
+            display: inline-block;
+       }
+       #two{
+            position: relative;
+       }
+       #itwo{
+            position: absolute;
+            top: 30px;
+            left:30px;
+            width: 100px;
+            background-color: yellow;
+            z-index: 5;
+        }
+       #ithree{
+        position: absolute;
+            top: 35px;
+            left:35px;
+            width: 100px;
+            z-index: 10;
+       }
+      
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+    <div class="box" id="two">
+        <div class="ibox" id="itwo">
+
+        </div>
+        <div class="ibox" id="ithree">
+
+        </div>
+    </div>
+    <div class="box">
+
+    </div>
+</body>
+</html>
