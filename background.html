@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: verdana,Arial;
+        }
+        .con{
+                width: 100%;
+                padding: 15% 10%;
+                box-sizing: border-box;
+        }
+        #sec1{
+            padding: 0%;
+            background-image: url("./images/spider.jpg");
+            background-position: center center;
+            background-size: cover;
+        }
+        #sec1 #abt{
+            color: white;
+            background-color: rgba(0,0,0,0.5);
+            padding: 10% 10%;
+        }
+        #sec1 #abt h1{
+            margin-bottom: 5px;
+        }
+        .bt{
+            margin: 20px auto;
+            padding: 15px 25px;
+            background-color: transparent;
+            border-radius: 20px;    
+            display: block;
+            transition: all 0.3s ease;
+        }
+        #btn1{
+            color: white;
+            border: 2px solid white;
+        }
+        #btn1:hover{
+            background-color: white;
+            color: black;
+        }
+
+
+        #sec2 h1{
+            margin-bottom: 5px;
+        }
+        #btn2:hover{
+            transform: scale(1.2,1.2);
+        }
+
+
+        #sec3{
+            background-image: url("./images/women.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #sec3 #darkbox{
+            background-color: rgba(0,0,0,0.6);
+            color: white;
+            padding: 50px;
+            border: 5px solid white;
+        }
+        #sec3 h1{
+            color: white;
+            margin-bottom: 5px;
+        }
+        #sec3 #btn3{
+            border: 2px solid white;
+            color: aliceblue;
+
+          }
+        #sec3 #btn3:hover{
+            transform: scaleX(1.5);
+        }
+
+        #sec4{
+            padding-bottom: 5%;
+        }
+        #sec4 h1{
+            margin-bottom: 5px;
+        }
+        #btn4:hover{
+            transform: scale(1.2,1.2);
+        }
+
+        #sec5{
+            padding: 0px;
+            overflow: hidden;
+        }
+        #sec5 #skewbox{
+            background-color:black;
+            padding:15% 15%;
+            transform: skewY(8deg);
+            position:relative;
+            top:75px;    
+        }
+    </style>
+</head>
+<body>
+    <div class="con" id="sec1">
+        <div id="abt">
+            <h1>About Us</h1>
+            <hr size="2" color="yellow" width="10%" align="left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Nemo id quam laboriosam quae nam, placeat voluptates nisi 
+            alias, aperiam, dolores quidem earum inventore consectetur 
+            vel officiis fugit itaque quod mollitia.
+            <br><br>
+            <button id="btn1" class="bt">
+                Learn More
+            </button>
+        </div>
+    </div>
+    <div class="con" id="sec2">
+        <h1>Services</h1>
+        <hr size="2" color="gray" width="10%" align="left">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Sequi, ex dignissimos? Eaque, delectus? 
+        Magni nam iure dolorum nemo corporis, officia debitis, 
+        tempore voluptatibus porro animi dolorem sint quod quidem 
+        sed.
+        <br><br>
+        <button class="bt" id="btn2">
+            Learn More
+        </button>
+    </div>
+    <div class="con" id="sec3">
+        <div id="darkbox">
+            <h1>Products</h1>
+            <hr size="2" color="white" width="10%" align="left">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Sequi, ex dignissimos? Eaque, delectus? 
+            Magni nam iure dolorum nemo corporis, officia debitis, 
+            tempore voluptatibus porro animi dolorem sint quod quidem 
+            sed.
+            <br><br>
+            <button class="bt" id="btn3">
+                Learn More
+            </button>
+        </div>
+        
+    </div>
+    <div class="con" id="sec4">
+        <h1>Services</h1>
+        <hr size="2" color="gray" width="10%" align="left">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Sequi, ex dignissimos? Eaque, delectus? 
+        Magni nam iure dolorum nemo corporis, officia debitis, 
+        tempore voluptatibus porro animi dolorem sint quod quidem 
+        sed.
+        <br><br>
+        <button class="bt" id="btn4">
+            Learn More
+        </button>
+    </div>
+    <div class="con" id="sec5">
+        <div id="skewbox">
+
+        </div>
+    </div>
+</body>
+</html>
